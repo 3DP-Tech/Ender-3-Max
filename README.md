@@ -5,4 +5,4 @@ These files are based on the bug fix branch and were compiled on September 28th,
 
 The **Configuration** folder containsthe files needed to compile the firmware. The bin folder contains a pre-compiled binary that can be applied to the printer.
 
-The configuration is compiled with the baord `BOARD_CREALITY_V4` targeted for verion 4.2.2 of the controller board. This may work on othr versions except for 4.2.7.
+The configuration is compiled with the baord `BOARD_CREALITY_V4` targeted for verion 4.2.2 of the controller board. This may work on other versions, but it will not work on 4.2.7.
