@@ -4,3 +4,5 @@ Marlin 2.0.x configuration for Ender 3 Max with CR Touch mounted with the OEM mo
 Copy **Configuration.h** and **Configuration_adv.h** into the Marlin folder overwriting the existing files.
 
 To compile, change the value of `default_envs` to `STM32F103RET6_creality`.
+
+Guide to build firmware: [Teaching Tech - Updated Marlin firmware setup guide - VS Code and Auto Build Marlin](https://www.youtube.com/watch?v=eq_ygvHF29I)
