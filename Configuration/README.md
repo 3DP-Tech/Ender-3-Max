@@ -6,3 +6,5 @@ Copy **Configuration.h** and **Configuration_adv.h** into the Marlin folder over
 To compile, change the value of `default_envs` to `STM32F103RET6_creality` in **platformio.ini**.
 
 Guide to build firmware: [Teaching Tech - Updated Marlin firmware setup guide - VS Code and Auto Build Marlin](https://www.youtube.com/watch?v=eq_ygvHF29I)
+
+This firmeware configuration files are provided as-is and you agree to assume all risk when you download them and apply them to your printer.
