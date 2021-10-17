@@ -3732,20 +3732,28 @@
  */
 
 // Custom Menu: Main Menu
-//#define CUSTOM_MENU_MAIN
+#define CUSTOM_MENU_MAIN
 #if ENABLED(CUSTOM_MENU_MAIN)
-  //#define CUSTOM_MENU_MAIN_TITLE "Custom Commands"
-  #define CUSTOM_MENU_MAIN_SCRIPT_DONE "M117 User Script Done"
+  #define CUSTOM_MENU_MAIN_TITLE "Custom Commands"
+  //#define CUSTOM_MENU_MAIN_SCRIPT_DONE "M117 User Script Done"
   #define CUSTOM_MENU_MAIN_SCRIPT_AUDIBLE_FEEDBACK
-  //#define CUSTOM_MENU_MAIN_SCRIPT_RETURN   // Return to status screen after a script
+  #define CUSTOM_MENU_MAIN_SCRIPT_RETURN   // Return to status screen after a script
   #define CUSTOM_MENU_MAIN_ONLY_IDLE         // Only show custom menu when the machine is idle
 
-  #define MAIN_MENU_ITEM_1_DESC "Home & UBL Info"
-  #define MAIN_MENU_ITEM_1_GCODE "G28\nG29 W"
-  //#define MAIN_MENU_ITEM_1_CONFIRM          // Show a confirmation dialog before this action
+  #define MAIN_MENU_ITEM_1_DESC "Move Gantry to 10"
+  #define MAIN_MENU_ITEM_1_GCODE "M117 Homing...\nG28 O\nG90\nM117 Centering X/Y...\nG1 X150 Y150 F750\nM117 Moving Gantry to 10...\nG1 Z10 F750\nM117 " CUSTOM_MACHINE_NAME " Ready."
+  
+  #define MAIN_MENU_ITEM_2_DESC "Move Gantry to 150"
+  #define MAIN_MENU_ITEM_2_GCODE "M117 Homing...\nG28 O\nG90\nM117 Centering X/Y...\nG1 X150 Y150 F750\nM117 Moving Gantry to 150...\nG1 Z150 F750\nM117 " CUSTOM_MACHINE_NAME " Ready."
+  
+  #define MAIN_MENU_ITEM_3_DESC "Move Gantry to 250"
+  #define MAIN_MENU_ITEM_3_GCODE "M117 Homing...\nG28 O\nG90\nM117 Centering X/Y...\nG1 X150 Y150 F750\nM117 Moving Gantry to 250...\nG1 Z250 F750\nM117 " CUSTOM_MACHINE_NAME " Ready."
 
-  #define MAIN_MENU_ITEM_2_DESC "Preheat for " PREHEAT_1_LABEL
-  #define MAIN_MENU_ITEM_2_GCODE "M140 S" STRINGIFY(PREHEAT_1_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_1_TEMP_HOTEND)
+  #define MAIN_MENU_ITEM_4_DESC "Move Gantry to 350"
+  #define MAIN_MENU_ITEM_4_GCODE "M117 Homing...\nG28 O\nG90\nM117 Centering X/Y...\nG1 X150 Y150 F750\nM117 Moving Gantry to 350...\nG1 Z350 F750\nM117 " CUSTOM_MACHINE_NAME " Ready."
+
+  //#define MAIN_MENU_ITEM_2_DESC "Preheat for " PREHEAT_1_LABEL
+  //#define MAIN_MENU_ITEM_2_GCODE "M140 S" STRINGIFY(PREHEAT_1_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_1_TEMP_HOTEND)
   //#define MAIN_MENU_ITEM_2_CONFIRM
 
   //#define MAIN_MENU_ITEM_3_DESC "Preheat for " PREHEAT_2_LABEL
