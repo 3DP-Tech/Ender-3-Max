@@ -7,4 +7,4 @@ To compile, change the value of `default_envs` to `STM32F103RE_creality` in **pl
 
 Guide to build firmware: [Teaching Tech - Updated Marlin firmware setup guide - VS Code and Auto Build Marlin](https://www.youtube.com/watch?v=eq_ygvHF29I)
 
-These firmeware configuration files are provided as-is and you agree to assume all risk when you download them and apply them to your printer.
+These firmware configuration files are provided as-is and you agree to assume all risk when you download them and apply them to your printer.
