@@ -32,4 +32,8 @@ There should be a letter written on the card reader slot (with marker) indicatio
 * B = TMC2209
 * H = TMC2225
 
-Information sourced from [TH3D](https://www.th3dstudio.com/hc/product-information/3rd-party-control-boards/creality-boards/creality-v4-2-x-board-driver-codes/).
+Information sourced from Marlin firmware:
+
+	Marlin/src/inc/Warnings.cpp:712:4: warning: #warning "Creality 4.2.2 boards come with a variety of stepper drivers. 
+	Check the board label and set the correct *_DRIVER_TYPE! 
+	(C=HR4988, E=A4988, A=TMC2208, B=TMC2209, H=TMC2225)." [-Wcpp] 712..."
