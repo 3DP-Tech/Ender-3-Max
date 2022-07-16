@@ -5,11 +5,11 @@ The **Configuration** folder contains the files needed to compile the firmware. 
 
 The configuration is compiled with the board name `BOARD_CREALITY_V4` targeted for verion 4.2.2 of the controller board. Use `STM32F103RE_creality` in ***platform.ini***.
 
-> NOTE: My board uses the TMC2208_STANDALONE for the stepper driver.`
+> NOTE: My board uses the TMC2208_STANDALONE for the stepper driver.
 
 In this version I defined the printable volume as 310 (x) by 310 (y) by 360 (z). The OEM firmware defines it as 300 x 300 x 340. This helps the bed leveling process to be centered on the bed resulting in slightly better accuracy.
 
-This will not work on the 4.2.7 board without modification to the `Configuration.h` file.
+This will **NOT** work on the 4.2.7 board without modification to the `Configuration.h` file.
 
 ## Viewing Changes
 If you would like to view the changes I made from the OEM Ender 3 Max configuration, you can view the differences in your favorite tool by comparing these files to the files found at [https://github.com/MarlinFirmware/Configurations/tree/release-2.1/config/examples/Creality/Ender-3%20Max](https://github.com/MarlinFirmware/Configurations/tree/release-2.1/config/examples/Creality/Ender-3%20Max).
