@@ -20,3 +20,16 @@ If you would like to view the changes I made from the OEM Ender 3 Max configurat
 5. Optionally, click the **Gear** icon on the right and select **Split** to view the changes in split view mode as shown below.
 
 ![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/Diff.png)
+
+## Creality Board Information
+There are multiple version of the Creality 4.2.2. The "silent" boards should have TMC drivers. The other boards will have 4988 drivers. The best way to know for sure which driver is included is to closely examine the chips on the board, however, if they are covered with heat sink, you would have to remove the heat sink (not recommended).
+
+There should be a letter written on the card reader slot (with marker) indicationing which stepper driver it has. Here is a guide for the 4.2.X board with STM32F103RET6 controller:
+
+* C = HR4988
+* E = A4988
+* A = TMC2208
+* B = TMC2209
+* H = TMC2225
+
+Information sourced from [TH3D](https://www.th3dstudio.com/hc/product-information/3rd-party-control-boards/creality-boards/creality-v4-2-x-board-driver-codes/).
