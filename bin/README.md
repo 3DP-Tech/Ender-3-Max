@@ -3,4 +3,4 @@ Marlin 2.1 configuration for Ender 3 Max with CR Touch mounted with the OEM moun
 
 Turn the printer off, Copy **firmware-20220716-113441.bin** to your SD card, insert the card into the printer and turn it on. It will take 10 to 15 seconds to update. The screen will be blank during this process.
 
-This firmeware is provided as-is and you agree to assume all risk when you download it and apply it to your printer.
+This firmware is provided as-is and you agree to assume all risk when you download it and apply it to your printer.
