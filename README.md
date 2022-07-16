@@ -17,5 +17,6 @@ If you would like to view the changes I made from the OEM Ender 3 Max configurat
 2. Open GitHub desktop and clone the Marlin Configurations repository using the URL **https://github.com/MarlinFirmware/Configurations.git**
 3. Copy the `Configuration.h` and `Configuration_adv.h` files from this repository into the Marlin Configuration folder `Configurations/config/examples/Creality/Ender-3 Max`
 4. Select one of the files in GitHub Desktop and it will show the changes I have made to the original files.
+5. Optionally, click the **Gear** icon on the right and select **Split** to view the changes in split view mode as shown below.
 
 ![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/Diff.png)
