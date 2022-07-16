@@ -5,7 +5,7 @@ The **Configuration** folder contains the files needed to compile the firmware. 
 
 The configuration is compiled with the board name `BOARD_CREALITY_V4` targeted for verion 4.2.2 of the controller board. Use `STM32F103RE_creality` in ***platform.ini***.
 
-> NOTE: My board uses the TMC2208_STANDALONE for the stepper driver.
+> NOTE: My board uses the TMC2208_STANDALONE for the stepper driver. See image below.
 
 In this version I defined the printable volume as 310 (x) by 310 (y) by 360 (z). The OEM firmware defines it as 300 x 300 x 340. This helps the bed leveling process to be centered on the bed resulting in slightly better accuracy.
 
@@ -39,3 +39,7 @@ Information sourced from Marlin firmware:
 	Marlin/src/inc/Warnings.cpp:712:4: warning: #warning "Creality 4.2.2 boards come with a variety of stepper drivers. 
 	Check the board label and set the correct *_DRIVER_TYPE! 
 	(C=HR4988, E=A4988, A=TMC2208, B=TMC2209, H=TMC2225)." [-Wcpp] 712..."
+	
+My board has A/C on which indicates that the X, Y and Z axis are TMC2208 while the E stepper is a HR4988.
+
+![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/422-board.jpg)
