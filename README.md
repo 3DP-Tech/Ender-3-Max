@@ -42,4 +42,4 @@ Information sourced from Marlin firmware:
 	
 My board has A/C on which indicates that the X, Y and Z axis are TMC2208 while the E stepper is a HR4988.
 
-![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/422-board.jpg)
+![](https://github.com/3DP-Tech/Ender-3-Max/raw/main/Images/422-board.jpg)
