@@ -21,7 +21,7 @@ If you would like to view the changes I made from the OEM Ender 3 Max configurat
 4. Select one of the files in GitHub Desktop and it will show the changes I have made to the original files.
 5. Optionally, click the **Gear** icon on the right and select **Split** to view the changes in split view mode as shown below.
 
-![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/Diff.png)
+![](https://github.com/3DP-Tech/Ender-3-Max/raw/Marlin-2.1/Images/configuration-diff.png)
 
 ## Creality Board Information
 There are multiple version of the Creality 4.2.2. The "silent" boards should have TMC drivers. The other boards will have 4988 drivers. The best way to know for sure which driver is included is to closely examine the chips on the board, however, if they are covered with heat sink, you would have to remove the heat sink (not recommended).
