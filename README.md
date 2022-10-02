@@ -1,5 +1,5 @@
 # Ender-3-Max 
-Marlin 2.1 configuration for Ender 3 Max with CR Touch/BL Touch.
+Marlin 2.1.1 configuration for Ender 3 Max with CR Touch/BL Touch.
 
 The **Configuration** folder contains the files needed to compile the firmware. The bin folder contains a pre-compiled binary that can be applied to the printer.
 
